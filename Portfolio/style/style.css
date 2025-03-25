@@ -131,17 +131,19 @@ body{
     background-color: var(--cor-terciaria);
 }
 
-@media(max-width: 1023px){
+@media(max-width: 1024px){
     header{
-        padding: 10% 0% 5% 0%;
+        padding: 5% 0% 5% 0%;
     }
     .navBar {
         justify-content: center;
         align-items: center;
-        gap: 0px;
+        gap: 1%
     }
     .conteudo{
         flex-direction: column-reverse;
+        margin-top: 0%;
+        margin-bottom: 4vh;
         padding: 0% 5%;
     }
     .conteudo_texto{
