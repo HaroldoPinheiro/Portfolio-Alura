@@ -60,7 +60,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 56px;
+    gap: 5%;
     margin-top: 8vh;
     margin-bottom: 8vh;
 }
@@ -115,16 +115,6 @@ body{
     box-shadow: 15px -15px 0px 0px var(--cor-primaria), 15px -15px 0px 2px var(--cor-terciaria);     
 }
 
-.conteudo_texto2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    width: 38%;
-}
-
-
 .foot{
     text-align: center;
     padding: 1.475rem;
@@ -138,18 +128,25 @@ body{
     .navBar {
         justify-content: center;
         align-items: center;
-        gap: 1%
+        gap: 0%
     }
     .conteudo{
         flex-direction: column-reverse;
         margin-top: 0%;
-        margin-bottom: 4vh;
+        margin-bottom: 6vh;
         padding: 0% 5%;
+        gap: 40px;
     }
     .conteudo_texto{
         width: auto;
     }
     .conteudo_texto2{
         width: auto;
+    }
+}
+
+@media(max-width: 800px){
+    header{
+        padding: 5% 0% 10% 0%;
     }
 }
